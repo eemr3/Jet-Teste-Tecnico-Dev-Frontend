@@ -6,7 +6,7 @@ export const CardList = ({ cars }: IDataCar) => {
   return (
     <div className="flex flex-wrap -mx-4">
       {cars.map((item, index) => (
-        <CarCard key={index} item={item} />
+        <CarCard key={index} car={item} />
       ))}
     </div>
   );
