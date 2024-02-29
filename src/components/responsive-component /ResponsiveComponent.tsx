@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 export const ResponsiveComponent = () => {
   const { data } = useData();
-  const [isTabletOrBigger, setIsTabletOrBigger] = useState(false);
+  const [isTabletOrBigger, setIsTabletOrBigger] = useState(true);
 
   useEffect(() => {
     const handleResize = () => {
