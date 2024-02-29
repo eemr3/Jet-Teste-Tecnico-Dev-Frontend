@@ -3,7 +3,7 @@ import { ITableLikeComponent } from '../../common/interfaces';
 import { TableHeaderRow } from './TableHeaderRow';
 import { TableRow } from './TableRow';
 
-const TableLikeComponent = ({ cars }: ITableLikeComponent) => {
+export const TableLikeComponent = ({ cars }: ITableLikeComponent) => {
   return (
     <div className="h-screen w-full m-8">
       <div className="overflow-x-auto">
@@ -19,5 +19,3 @@ const TableLikeComponent = ({ cars }: ITableLikeComponent) => {
     </div>
   );
 };
-
-export default TableLikeComponent;
